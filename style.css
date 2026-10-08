@@ -152,9 +152,7 @@ nav.navbar .logo a:hover {
 
 nav.navbar .nav-links {
     list-style: none;
-    /* Bullet points ဖျောက်ရန် */
     display: flex;
-    /* ဘေးတိုက် တန်းရန် */
     gap: 30px;
     margin: 0;
     padding: 0;
@@ -170,7 +168,6 @@ nav.navbar .nav-links li a {
     transition: all 0.3s ease;
 }
 
-/* Hover Underline Effect */
 nav.navbar .nav-links li a::after {
     content: '';
     position: absolute;
@@ -190,7 +187,6 @@ nav.navbar .nav-links li a:hover::after {
     width: 100%;
 }
 
-/* Main Content Area Styling */
 .content {
     flex: 1;
     display: flex;
@@ -227,10 +223,8 @@ nav.navbar .nav-links li a:hover::after {
     font-weight: 300;
 }
 
-/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Global Reset */
 * {
     margin: 0;
     padding: 0;
@@ -246,7 +240,6 @@ body.about-page {
     flex-direction: column;
 }
 
-/* Glassmorphism Navigation Bar Styling */
 nav.navbar {
     display: flex;
     justify-content: space-between;
@@ -277,9 +270,7 @@ nav.navbar .logo a:hover {
 
 nav.navbar .nav-links {
     list-style: none;
-    /* Bullet points ဖျောက်ရန် */
     display: flex;
-    /* ဘေးတိုက် Horizontal တန်းရန် */
     gap: 30px;
     margin: 0;
     padding: 0;
@@ -295,7 +286,6 @@ nav.navbar .nav-links li a {
     transition: all 0.3s ease;
 }
 
-/* Hover Animation Effect */
 nav.navbar .nav-links li a::after {
     content: '';
     position: absolute;
